@@ -31,5 +31,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        editTextNama = (EditText) findViewById(R.id.editTextNama);
+        spinnerKelas = (Spinner) findViewById(R.id.spinnerKelas);
+        radioGroupJK = (RadioGroup) findViewById(R.id.radioGroupJK);
+        radioButtonL = (RadioButton) findViewById(R.id.radioButtonL);
+        radioButtonP = (RadioButton) findViewById(R.id.radioButtonP);
+        spinnerAgama = (Spinner) findViewById(R.id.spinnerAgama);
+        editTextHP = (EditText) findViewById(R.id.editTextHP);
+        editTextEmail = (EditText) findViewById(R.id.editTextEmail);
+        radioGroupOrgan = (RadioGroup) findViewById(R.id.radioGroupOrgan);
+        radioButtonOsis = (RadioButton) findViewById(R.id.radioButtonOsis);
+        radioButtonMPK = (RadioButton) findViewById(R.id.radioButtonMPK);
+        radioButtonPramuka = (RadioButton) findViewById(R.id.radioButtonPramuka);
+        checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
+        checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+        checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
+        textViewHasil = (TextView) findViewById(R.id.textViewHasil);
+
+
     }
 }
