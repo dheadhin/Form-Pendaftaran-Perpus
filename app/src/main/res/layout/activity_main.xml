@@ -87,6 +87,81 @@
             </RadioGroup>
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAgama"
+                android:text="Agama"/>
+
+            <Spinner
+                android:id="@+id/spinnerAgama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewHP"
+                android:text="No. HP"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextHP"
+                android:inputType="phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewEmail"
+                android:text="Email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmail"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewOrgan"
+                android:text="Pengalaman Organisasi"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupOrgan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonOsis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Osis" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonPramuka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pramuka" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMPK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="MPK" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonLain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lain-lain" />
+            </RadioGroup>
+
+            <TextView
                 android:id="@+id/textViewKeahlian"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
