@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView6"
+                android:id="@+id/textViewJudul"
                 android:text="\nPendaftaran Pengurus Perpustakaan SMK Telkom Malang\n"
                 android:textSize="20dp"
                 android:textStyle="normal|bold"
@@ -204,9 +204,9 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textHasil"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewHasil"/>
             </LinearLayout>
 
         </LinearLayout>
