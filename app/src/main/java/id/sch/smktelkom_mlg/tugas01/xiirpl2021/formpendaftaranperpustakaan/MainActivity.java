@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerAgama.setAdapter(adapter2);
 
+
         buttonDaftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
